@@ -1,0 +1,67 @@
+{
+  "positions": [
+    {
+      "name": "Quarterback",
+      "abbrev": "QB",
+      "type": "offense",
+      "imgSrc": "./qb-removebg-preview.png",
+      "id": 1
+    },
+    {
+      "name": "Halfback",
+      "abbrev": "HB",
+      "type": "offense",
+      "imgSrc": "./hb-removebg-preview.png",
+      "id": 2
+    },
+    {
+      "name": "Wide Receiver",
+      "abbrev": "WR",
+      "type": "offense",
+      "imgSrc": "./wr-removebg-preview.png",
+      "id": 3
+    },
+    {
+      "name": "Tight End",
+      "abbrev": "TE",
+      "type": "offense",
+      "imgSrc": "./te-removebg-preview.png",
+      "id": 4
+    },
+    {
+      "name": "Left Guard",
+      "abbrev": "LG",
+      "type": "offense",
+      "imgSrc": "./lg-removebg-preview.png",
+      "id": 5
+    },
+    {
+      "name": "Left Tackle",
+      "abbrev": "LT",
+      "type": "offense",
+      "imgSrc": "./lt-removebg-preview.png",
+      "id": 6
+    },
+    {
+      "name": "Center",
+      "abbrev": "C",
+      "type": "offense",
+      "imgSrc": "./c-removebg-preview.png",
+      "id": 7
+    },
+    {
+      "name": "Right Tackle",
+      "abbrev": "RT",
+      "type": "offense",
+      "imgSrc": "./rt-removebg-preview.png",
+      "id": 8
+    },
+    {
+      "name": "Right Guard",
+      "abbrev": "RG",
+      "type": "offense",
+      "imgSrc": "./rg-removebg-preview.png",
+      "id": 9
+    }
+  ]
+}
