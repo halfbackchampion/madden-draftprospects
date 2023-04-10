@@ -34,8 +34,14 @@ const Position = (props) => {
       <div>
         <p><b>Bust Rate</b>: {evaluation.bustRate}</p>
         <p><b>False Alarm Rate</b>: {evaluation.falseAlarmRate}</p>
-        <p>{evaluation.comments}</p>
-        <p>{evaluation.riskAssessment}</p>
+        <div>
+          <h4>Comments</h4>
+          <p>{evaluation.comments}</p>
+        </div>
+        <div>
+          <h4>High Risk/High Reward or Late Rounds</h4>
+          <p>{evaluation.riskAssessment}</p>
+        </div>
       </div>
       <img src = {p.imgSrc} alt = {p.name} width = "256" height = "256"/>
     </div>
