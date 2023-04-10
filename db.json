@@ -4,6 +4,29 @@
       "name": "Quarterback",
       "abbrev": "QB",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./qb-removebg-preview.png",
       "id": 1
     },
@@ -11,6 +34,29 @@
       "name": "Halfback",
       "abbrev": "HB",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./hb-removebg-preview.png",
       "id": 2
     },
@@ -18,6 +64,29 @@
       "name": "Wide Receiver",
       "abbrev": "WR",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./wr-removebg-preview.png",
       "id": 3
     },
@@ -25,6 +94,29 @@
       "name": "Tight End",
       "abbrev": "TE",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./te-removebg-preview.png",
       "id": 4
     },
@@ -32,6 +124,29 @@
       "name": "Left Guard",
       "abbrev": "LG",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./lg-removebg-preview.png",
       "id": 5
     },
@@ -39,6 +154,29 @@
       "name": "Left Tackle",
       "abbrev": "LT",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./lt-removebg-preview.png",
       "id": 6
     },
@@ -46,6 +184,29 @@
       "name": "Center",
       "abbrev": "C",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./c-removebg-preview.png",
       "id": 7
     },
@@ -53,6 +214,29 @@
       "name": "Right Tackle",
       "abbrev": "RT",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./rt-removebg-preview.png",
       "id": 8
     },
@@ -60,8 +244,271 @@
       "name": "Right Guard",
       "abbrev": "RG",
       "type": "offense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
       "imgSrc": "./rg-removebg-preview.png",
       "id": 9
+    },
+    {
+      "name": "Defensive Tackle",
+      "abbrev": "DT",
+      "type": "defense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
+      "imgSrc": "./dt-removebg-preview.png",
+      "id": 10
+    },
+    {
+      "name": "Defensive End",
+      "abbrev": "DE",
+      "type": "defense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
+      "imgSrc": "./de-removebg-preview.png",
+      "id": 11
+    },
+    {
+      "name": "Cornerback",
+      "abbrev": "CB",
+      "type": "defense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
+      "imgSrc": "./cb-removebg-preview.png",
+      "id": 12
+    },
+    {
+      "name": "Left Outside Linebacker",
+      "abbrev": "LOLB",
+      "type": "defense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
+      "imgSrc": "./lolb-removebg-preview.png",
+      "id": 13
+    },
+    {
+      "name": "Middle Linebacker",
+      "abbrev": "MLB",
+      "type": "defense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
+      "imgSrc": "./mlb-removebg-preview.png",
+      "id": 14
+    },
+    {
+      "name": "Right Outside Linebacker",
+      "abbrev": "ROLB",
+      "type": "defense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
+      "imgSrc": "./rolb-removebg-preview.png",
+      "id": 15
+    },
+    {
+      "name": "Free Safety",
+      "abbrev": "FS",
+      "type": "defense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
+      "imgSrc": "./fs-removebg-preview.png",
+      "id": 16
+    },
+    {
+      "name": "Strong Safety",
+      "abbrev": "SS",
+      "type": "defense",
+      "criteria": {
+        "attributes": [
+          {
+            "id": 1,
+            "score": "B-",
+            "description": "All Three Scores Must Be At Least This High",
+            "eligibleAttributes": []
+          },
+          {
+            "id": 2,
+            "score": "B",
+            "description": "Or better in any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+          }
+        ],
+        "combineStats": [
+          {
+            "id": 1,
+            "score": "4.85",
+            "type": "40 yard dash (or better)"
+          }
+        ]
+      },
+      "imgSrc": "./ss-removebg-preview.png",
+      "id": 17
     }
   ]
 }
