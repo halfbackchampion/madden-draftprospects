@@ -17,7 +17,7 @@ const App = () =>
   return(
     <div>
       <ul>
-        {defense && defense.map(position => (
+        {positions && positions.map(position => (
           <li key = {position.id}>
             <Position position = {position}/>
           </li>

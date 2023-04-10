@@ -1,6 +1,7 @@
 const Position = (props) => {
   const p = props.position
   const criteria = p.criteria
+  const evaluation = p.evaluation
 
   return(
     <div>
@@ -29,6 +30,13 @@ const Position = (props) => {
           </li>
         </ul>
       )}
+      <h4>Statistical Confidence Evaluation</h4>
+      <div>
+        <p><b>Bust Rate</b>: {evaluation.bustRate}</p>
+        <p><b>False Alarm Rate</b>: {evaluation.falseAlarmRate}</p>
+        <p>{evaluation.comments}</p>
+        <p>{evaluation.riskAssessment}</p>
+      </div>
       <img src = {p.imgSrc} alt = {p.name} width = "256" height = "256"/>
     </div>
   )
