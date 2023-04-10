@@ -6,10 +6,11 @@ const Position = (props) => {
     <div>
       <h1>{p.name}</h1>
       <p>For a {p.abbrev} to get selected for the draft board, he must pass <u>ALL</u> of the following criteria: </p>
+      <h4>Top 3 Attributes</h4>
       {criteria.attributes && criteria.attributes.map(attribute => 
         <ul>
           <li key = {attribute.id}>
-            <div><b>[{attribute.score}]</b>: {attribute.description}</div>
+            <div><b>{attribute.description}</b>: {attribute.score}</div>
             {attribute.eligibleAttributes && attribute.eligibleAttributes.map(attribute => 
               <ul>
                 <li key = {attribute}>
@@ -20,10 +21,11 @@ const Position = (props) => {
           </li>
         </ul>
       )}
+      <h4>Combine Statistics</h4>
       {criteria.combineStats && criteria.combineStats.map(combine => 
         <ul>
           <li key = {combine.id}>
-            <div><b>[{combine.score}]</b>: {combine.type}</div>
+            <div><b>{combine.type}</b>: {combine.score}</div>
           </li>
         </ul>
       )}

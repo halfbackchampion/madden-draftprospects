@@ -11,10 +11,13 @@ const App = () =>
     .then(data => setPositions(data))
   }, [])
 
+  const offense = positions.filter(pos => pos.type === "offense")
+  const defense = positions.filter(pos => pos.type === "defense")
+
   return(
     <div>
       <ul>
-        {positions && positions.map(position => (
+        {defense && defense.map(position => (
           <li key = {position.id}>
             <Position position = {position}/>
           </li>
