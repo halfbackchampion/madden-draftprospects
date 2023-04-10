@@ -442,8 +442,8 @@
       "evaluation": {
         "bustRate": "< 1%",
         "falseAlarmRate": "< 1%",
-        "comments": "",
-        "riskAssessment": ""
+        "comments": "This is a very accurate projection. You can ignore Hit Power, it might seem important, but it isn't. It contributes only 3% of the overall value for a LOLB",
+        "riskAssessment": "You can eliminate the need for another score to be at a B-, but it really doesn't gain you much as we haven't yet found a stud LOLB who failed the above"
       },
       "imgSrc": "./lolb-removebg-preview.png",
       "id": 13
@@ -456,30 +456,24 @@
         "attributes": [
           {
             "id": 1,
-            "score": "B-",
-            "description": "All Three Scores Must Be At Least This High",
+            "score": "B (or better)",
+            "description": "Pursuit",
             "eligibleAttributes": []
-          },
-          {
-            "id": 2,
-            "score": "B",
-            "description": "Or better in any of the following",
-            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
           }
         ],
         "combineStats": [
           {
             "id": 1,
-            "score": "4.85",
-            "type": "40 yard dash (or better)"
+            "score": "7.4 (or better)",
+            "type": "Overall Combine Score"
           }
         ]
       },
       "evaluation": {
         "bustRate": "< 1%",
-        "falseAlarmRate": "17%",
-        "comments": "It's the most imporant position on the field, and we have a great success rate. If they have the above, they are almost certainly a 78 or higher, and even our rare 'misses' are in the 76-77 range.",
-        "riskAssessment": "If you are willing to accept a higher bust rate to be sure you don't miss anyone, accept players on Short Accuracy, Medium Accuracy or Deep Accuracy as low as a B-"
+        "falseAlarmRate": "< 1%",
+        "comments": "The MLB requires a highly balanced physical skillset accounting for 20% of the total score, the Combine Overall is the best predictor of this",
+        "riskAssessment": "Lower the Combine stat to 6.9 and you'll get some great solid players late, but you will have about 20% bust rate"
       },
       "imgSrc": "./mlb-removebg-preview.png",
       "id": 14
@@ -492,30 +486,24 @@
         "attributes": [
           {
             "id": 1,
-            "score": "B-",
-            "description": "All Three Scores Must Be At Least This High",
-            "eligibleAttributes": []
+            "score": "B+ (or better)",
+            "description": "In any of the following",
+            "eligibleAttributes": ["Tackle", "Block Shedding", "Finesse Moves"]
           },
           {
             "id": 2,
-            "score": "B",
-            "description": "Or better in any of the following",
-            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+            "score": "B- (or better)",
+            "description": "In any of the following",
+            "eligibleAttributes": ["Tackle", "Finesse Moves", "Block Shedding"]
           }
         ],
-        "combineStats": [
-          {
-            "id": 1,
-            "score": "4.85",
-            "type": "40 yard dash (or better)"
-          }
-        ]
+        "combineStats": []
       },
       "evaluation": {
         "bustRate": "< 1%",
-        "falseAlarmRate": "17%",
-        "comments": "It's the most imporant position on the field, and we have a great success rate. If they have the above, they are almost certainly a 78 or higher, and even our rare 'misses' are in the 76-77 range.",
-        "riskAssessment": "If you are willing to accept a higher bust rate to be sure you don't miss anyone, accept players on Short Accuracy, Medium Accuracy or Deep Accuracy as low as a B-"
+        "falseAlarmRate": "< 1%",
+        "comments": "This is a very accurate projection. You can ignore Hit Power, it might seem important, but it isn't. It contributes only 3% of the overall value for a ROLB",
+        "riskAssessment": "You can take a shot with replacing the B+ above with a B-, but that greatly increases your risk with little reward"
       },
       "imgSrc": "./rolb-removebg-preview.png",
       "id": 15
@@ -528,30 +516,30 @@
         "attributes": [
           {
             "id": 1,
-            "score": "B-",
-            "description": "All Three Scores Must Be At Least This High",
+            "score": "C+ (or better)",
+            "description": "Zone Coverage",
             "eligibleAttributes": []
           },
           {
             "id": 2,
-            "score": "B",
-            "description": "Or better in any of the following",
-            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+            "score": "B- (or better)",
+            "description": "Pursuit",
+            "eligibleAttributes": []
           }
         ],
         "combineStats": [
           {
             "id": 1,
-            "score": "4.85",
-            "type": "40 yard dash (or better)"
+            "score": "4.57 (or better)",
+            "type": "40 yard dash"
           }
         ]
       },
       "evaluation": {
         "bustRate": "< 1%",
-        "falseAlarmRate": "17%",
-        "comments": "It's the most imporant position on the field, and we have a great success rate. If they have the above, they are almost certainly a 78 or higher, and even our rare 'misses' are in the 76-77 range.",
-        "riskAssessment": "If you are willing to accept a higher bust rate to be sure you don't miss anyone, accept players on Short Accuracy, Medium Accuracy or Deep Accuracy as low as a B-"
+        "falseAlarmRate": "< 1%",
+        "comments": "There aren't many of these, as low as 1 per 3-4 draft classes. If you find a stud Free Safety, take them",
+        "riskAssessment": "I wouldn't risk it. In 5 draft classes straight, I never found any FS between 74 - 77. You either get a stud using the above, or you should stay away"
       },
       "imgSrc": "./fs-removebg-preview.png",
       "id": 16
@@ -564,30 +552,18 @@
         "attributes": [
           {
             "id": 1,
-            "score": "B-",
-            "description": "All Three Scores Must Be At Least This High",
-            "eligibleAttributes": []
-          },
-          {
-            "id": 2,
-            "score": "B",
-            "description": "Or better in any of the following",
-            "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+            "score": "B- (or better)",
+            "description": "Both Scores Must Be At Least This High",
+            "eligibleAttributes": ["Zone Coverage", "Pursuit"]
           }
         ],
-        "combineStats": [
-          {
-            "id": 1,
-            "score": "4.85",
-            "type": "40 yard dash (or better)"
-          }
-        ]
+        "combineStats": []
       },
       "evaluation": {
-        "bustRate": "< 1%",
-        "falseAlarmRate": "17%",
-        "comments": "It's the most imporant position on the field, and we have a great success rate. If they have the above, they are almost certainly a 78 or higher, and even our rare 'misses' are in the 76-77 range.",
-        "riskAssessment": "If you are willing to accept a higher bust rate to be sure you don't miss anyone, accept players on Short Accuracy, Medium Accuracy or Deep Accuracy as low as a B-"
+        "bustRate": "<1%",
+        "falseAlarmRate": "<1%",
+        "comments": "There aren't many of these, as low as 1 per 3-4 draft classes. If you find a stud Strong Safety, take them",
+        "riskAssessment": "Ignore the zone coverage and only go for the pursuit requirement if you want to reach a bit"
       },
       "imgSrc": "./ss-removebg-preview.png",
       "id": 17
