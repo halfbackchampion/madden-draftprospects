@@ -1,0 +1,572 @@
+{
+    "positions": [
+      {
+        "name": "Quarterback",
+        "abbrev": "QB",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B+ (or better)",
+              "description": "Throwing Power",
+              "eligibleAttributes": []
+            },
+            {
+              "id": 2,
+              "score": "B (or better)",
+              "description": "Short Accuracy",
+              "eligibleAttributes": []
+            },
+            {
+              "id": 3,
+              "score": "B (or better)",
+              "description": "Medium or Deep Accuracy",
+              "eligibleAttributes": []
+            }
+          ],
+          "combineStats": []
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "17%",
+          "comments": "It's the most imporant position on the field, and we have a great success rate. If they have the above, they are almost certainly a 78 or higher, and even our rare 'misses' are in the 76-77 range.",
+          "riskAssessment": "If you are willing to accept a higher bust rate to be sure you don't miss anyone, accept players on Short Accuracy, Medium Accuracy or Deep Accuracy as low as a B-"
+        },
+        "imgSrc": "./qb-removebg-preview.png",
+        "id": 1
+      },
+      {
+        "name": "Halfback",
+        "abbrev": "HB",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B+ (or better)",
+              "description": "Carrying",
+              "eligibleAttributes": []
+            },
+            {
+              "id": 2,
+              "score": "B (or better)",
+              "description": "Ball Carrier Vision",
+              "eligibleAttributes": []
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "4.62 (or better)",
+              "type": "40 yard dash"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comments": "No comment",
+          "riskAssessment": "Rely only on the carrying score and you will have a good chance at a solid player in the late rounds (3+)"
+        },
+        "imgSrc": "./hb-removebg-preview.png",
+        "id": 2
+      },
+      {
+        "name": "Wide Receiver",
+        "abbrev": "WR",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B (or better)",
+              "description": "Release",
+              "eligibleAttributes": []
+            },
+            {
+              "id": 2,
+              "score": "B- (or better)",
+              "description": "Catching",
+              "eligibleAttributes": []
+            },
+            {
+              "id": 3,
+              "score": "B- (or better)",
+              "description": "Route Running",
+              "eligibleAttributes": []
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "6.90 (or better)",
+              "type": "3 Cone"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comments": "This position eats up a lot of scouting points, so if you don't need a WR, this is a good one to skip and save the points. Note that often, you will not see catching or route running because other scores will be B or higher. That is a sign of a very good player.",
+          "riskAssessment": "I don't see any value in taking a flyer on a WR who doesn't reach the above"
+        },
+        "imgSrc": "./wr-removebg-preview.png",
+        "id": 3
+      },
+      {
+        "name": "Tight End",
+        "abbrev": "TE",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B- (or better)",
+              "description": "Catching",
+              "eligibleAttributes": []
+            },
+            {
+              "id": 2,
+              "score": "C+ (or better)",
+              "description": "All Three Scores Must Be At Least This High",
+              "eligibleAttributes": []
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "6.1 (or better)",
+              "type": "Combine Score"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "20%",
+          "comments": "Tight ends are one of the toughest to scout, and I am happy to have a decent bust rate and even to keep the false alarm rate to here. For a QB you only need 5 stats to get 80% of his total value, for a TE you need 9. This is the best we can do",
+          "riskAssessment": "In late rounds, keep an eye on tight ends who have a combine score of 6.1 and a run block of C+. About 20% are busts, but I average 1 TE of 72 or better after round 5 per draft"
+        },
+        "imgSrc": "./te-removebg-preview.png",
+        "id": 4
+      },
+      {
+        "name": "Left Guard",
+        "abbrev": "LG",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B (or better)",
+              "description": "In any of the following",
+              "eligibleAttributes": ["Pass Block", "Run Block"]
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "33 (or better)",
+              "type": "Bench Press"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "6%",
+          "falseAlarmRate": "<1%",
+          "comments": "The bust rate is higher than we like, but it is the best we could do since we don't have a good way to measure Awareness",
+          "riskAssessment": "Don't - You aren't missing anyone good"
+        },
+        "imgSrc": "./lg-removebg-preview.png",
+        "id": 5
+      },
+      {
+        "name": "Left Tackle",
+        "abbrev": "LT",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B- (or better)",
+              "description": "Both Scores Must Be At Least This High",
+              "eligibleAttributes": ["Pass Block", "Run Block"]
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "34 (or better)",
+              "type": "Bench Press"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "14%",
+          "comments": "You'll find 1-2 in any given class, and while they usually go early, I can typically find one every 3rd or 4th year in the second round or later",
+          "riskAssessment": "Lower the Pass Block requirement to C+ and you'll get more hits - but about 2 of every 7 will be busts"
+        },
+        "imgSrc": "./lt-removebg-preview.png",
+        "id": 6
+      },
+      {
+        "name": "Center",
+        "abbrev": "C",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B- (or better)",
+              "description": "Both Scores Must Be At Least This High",
+              "eligibleAttributes": ["Pass Block", "Run Block"]
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "33 (or better)",
+              "type": "Bench Press"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comments": "None",
+          "riskAssessment": "You could lower the bench to 30 but there's no real point"
+        },
+        "imgSrc": "./c-removebg-preview.png",
+        "id": 7
+      },
+      {
+        "name": "Right Tackle",
+        "abbrev": "RT",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B (or better)",
+              "description": "In one of the following",
+              "eligibleAttributes": ["Pass Block", "Run Block"]
+            },
+            {
+              "id": 2,
+              "score": "C (or better)",
+              "description": "In one of the following",
+              "eligibleAttributes": ["Pass Block", "Run Block"]
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "30 (or better)",
+              "type": "Bench Press"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "25%",
+          "comments": "By far the highest alarm rate in the offense, but we just couldn't live with the alternative of an 11% bust rate",
+          "riskAssessment": "If you make this C+ for one and C for the other, you can cut your false alarm rate in half, but it comes at the cost of an 11% bust rate"
+        },
+        "imgSrc": "./rt-removebg-preview.png",
+        "id": 8
+      },
+      {
+        "name": "Right Guard",
+        "abbrev": "RG",
+        "type": "offense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B-",
+              "description": "Both Scores Must Be At Least This High",
+              "eligibleAttributes": ["Pass Block", "Run Block"]
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "30 (or better)",
+              "type": "Bench Press"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "11%",
+          "comments": "None",
+          "riskAssessment": "You can lower the requirements from B- to C and lower your false alarm rate. However, you do so by increasing your bust rate to 13%"
+        },
+        "imgSrc": "./rg-removebg-preview.png",
+        "id": 9
+      },
+      {
+        "name": "Defensive Tackle",
+        "abbrev": "DT",
+        "type": "defense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "C+",
+              "description": "All Three Scores Must Be At Least This High",
+              "eligibleAttributes": []
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "32 (or better)",
+              "type": "Bench Press"
+            },
+            {
+              "id": 2,
+              "score": "5.10 (or better)",
+              "type": "40 yard dash"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comments": "The confidence over there looks good but my gut tells me this is still a problem. The two most important stats for a DT(Finesse Moves and Play Recognition) never pop up because other things which don't matter, like hit power are higher. To have to rely on speed (which is only 6% of their score) is a sign of my desperation. So far it is working, but it doesn't feel right.",
+          "riskAssessment": "If it doesn't pass the above, don't take them. So far I haven't found a single player between 72 and 78, they are either studs or duds"
+        },
+        "imgSrc": "./dt-removebg-preview.png",
+        "id": 10
+      },
+      {
+        "name": "Defensive End",
+        "abbrev": "DE",
+        "type": "defense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B-",
+              "description": "All Three Scores Must Be At Least This High",
+              "eligibleAttributes": []
+            },
+            {
+              "id": 2,
+              "score": "B (or better)",
+              "description": "In any of the following",
+              "eligibleAttributes": ["Tackle", "Finesse Moves", "Power Moves"]
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "4.85 (or better)",
+              "type": "40 yard dash"
+            },
+            {
+              "id": 2,
+              "score": "7.42 (or better)",
+              "type": "3 Cone"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "40%",
+          "falseAlarmRate": "19%",
+          "comments": "Defensive End is a nightmare to scout. Pursuit and Hit Power, which combined are only 4% of the total value, will almost always pop up as 2 of the 3 revealed scores. So in the best case scenario, we can know 42% of the stats for this position. Not nearly enough to work with, I generally skip this position and fill it via Free Agency or by trading draft picks which I know I won't need",
+          "riskAssessment": "It's already as high risk reward as it gets"
+        },
+        "imgSrc": "./de-removebg-preview.png",
+        "id": 11
+      },
+      {
+        "name": "Cornerback",
+        "abbrev": "CB",
+        "type": "defense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "C+ (or better)",
+              "description": "In one of the following",
+              "eligibleAttributes": ["Zone Coverage", "Man Coverage"]
+            },
+            {
+              "id": 2,
+              "score": "B (or better)",
+              "description": "In one of the following",
+              "eligibleAttributes": ["Zone Coverage", "Man Coverage"]
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "6.95 (or better)",
+              "type": "3 Cone"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "3%",
+          "comments": "This position eats up a lot of scouting points, so if you don't need a CB, this is a good one to skip and save the points.",
+          "riskAssessment": "Remove the requirement that one coverage stat must be a B. You'll have more potential solid players, although your bust rate will be relatively high"
+        },
+        "imgSrc": "./cb-removebg-preview.png",
+        "id": 12
+      },
+      {
+        "name": "Left Outside Linebacker",
+        "abbrev": "LOLB",
+        "type": "defense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B (or better)",
+              "description": "In any of the following",
+              "eligibleAttributes": ["Block Shedding", "Power Moves"]
+            },
+            {
+              "id": 2,
+              "score": "B- (or better)",
+              "description": "In any of the following",
+              "eligibleAttributes": ["Tackle", "Block Shedding", "Power Moves", "Pursuit"]
+            }
+          ],
+          "combineStats": []
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comments": "This is a very accurate projection. You can ignore Hit Power, it might seem important, but it isn't. It contributes only 3% of the overall value for a LOLB",
+          "riskAssessment": "You can eliminate the need for another score to be at a B-, but it really doesn't gain you much as we haven't yet found a stud LOLB who failed the above"
+        },
+        "imgSrc": "./lolb-removebg-preview.png",
+        "id": 13
+      },
+      {
+        "name": "Middle Linebacker",
+        "abbrev": "MLB",
+        "type": "defense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B (or better)",
+              "description": "Pursuit",
+              "eligibleAttributes": []
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "7.4 (or better)",
+              "type": "Overall Combine Score"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comments": "The MLB requires a highly balanced physical skillset accounting for 20% of the total score, the Combine Overall is the best predictor of this",
+          "riskAssessment": "Lower the Combine stat to 6.9 and you'll get some great solid players late, but you will have about 20% bust rate"
+        },
+        "imgSrc": "./mlb-removebg-preview.png",
+        "id": 14
+      },
+      {
+        "name": "Right Outside Linebacker",
+        "abbrev": "ROLB",
+        "type": "defense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B+ (or better)",
+              "description": "In any of the following",
+              "eligibleAttributes": ["Tackle", "Block Shedding", "Finesse Moves"]
+            },
+            {
+              "id": 2,
+              "score": "B- (or better)",
+              "description": "In any of the following",
+              "eligibleAttributes": ["Tackle", "Finesse Moves", "Block Shedding"]
+            }
+          ],
+          "combineStats": []
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comments": "This is a very accurate projection. You can ignore Hit Power, it might seem important, but it isn't. It contributes only 3% of the overall value for a ROLB",
+          "riskAssessment": "You can take a shot with replacing the B+ above with a B-, but that greatly increases your risk with little reward"
+        },
+        "imgSrc": "./rolb-removebg-preview.png",
+        "id": 15
+      },
+      {
+        "name": "Free Safety",
+        "abbrev": "FS",
+        "type": "defense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "C+ (or better)",
+              "description": "Zone Coverage",
+              "eligibleAttributes": []
+            },
+            {
+              "id": 2,
+              "score": "B- (or better)",
+              "description": "Pursuit",
+              "eligibleAttributes": []
+            }
+          ],
+          "combineStats": [
+            {
+              "id": 1,
+              "score": "4.57 (or better)",
+              "type": "40 yard dash"
+            }
+          ]
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comments": "There aren't many of these, as low as 1 per 3-4 draft classes. If you find a stud Free Safety, take them",
+          "riskAssessment": "I wouldn't risk it. In 5 draft classes straight, I never found any FS between 74 - 77. You either get a stud using the above, or you should stay away"
+        },
+        "imgSrc": "./fs-removebg-preview.png",
+        "id": 16
+      },
+      {
+        "name": "Strong Safety",
+        "abbrev": "SS",
+        "type": "defense",
+        "criteria": {
+          "attributes": [
+            {
+              "id": 1,
+              "score": "B- (or better)",
+              "description": "Both Scores Must Be At Least This High",
+              "eligibleAttributes": ["Zone Coverage", "Pursuit"]
+            }
+          ],
+          "combineStats": []
+        },
+        "evaluation": {
+          "bustRate": "<1%",
+          "falseAlarmRate": "<1%",
+          "comment": "There aren't many of these, as low as 1 per 3-4 draft classes. If you find a stud Strong Safety, take them",
+          "riskAssessment": "Ignore the zone coverage and only go for the pursuit requirement if you want to reach a bit"
+        },
+        "imgSrc": "./ss-removebg-preview.png",
+        "id": 17
+      }
+    ]
+  }
