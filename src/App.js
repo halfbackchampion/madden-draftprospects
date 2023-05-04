@@ -1,30 +1,33 @@
 import './index.css'
 import {useEffect, useState} from 'react'
+import {BrowserRouter as Router, Routes, Route, Link, Navigate} from 'react-router-dom'
 import Position from './components/Position'
+import PositionList from './components/PositionList'
+import PositionService from './services/PositionService'
 
 const App = () => 
 {
   const [positions, setPositions] = useState([])
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/")
-    .then(response => response.json())
-    .then(data => setPositions(data))
+    const fetchData = async () => {
+      const data = await PositionService().getAll()
+      setPositions(data)
+    }
+
+    fetchData()
   }, [])
 
-  const offense = positions.filter(pos => pos.type === "offense")
-  const defense = positions.filter(pos => pos.type === "defense")
-
   return(
-    <div>
-      <ul>
-        {positions && positions.map(position => (
-          <li key = {position.id}>
-            <Position position = {position}/>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <Router>
+      <div>
+        <Link to="/">home</Link>
+      </div>
+      <Routes>
+        <Route path = "/" element = {<PositionList positions = {positions}/>}/>
+        <Route path = "/:id" element = {<Position/>}/>
+      </Routes>
+    </Router>
   )
 }
 

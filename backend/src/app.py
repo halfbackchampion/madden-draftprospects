@@ -10,3 +10,8 @@ data = json.load(jsonFile)
 @app.route("/")
 def home_page():
     return jsonify(data["positions"])
+
+@app.route("/<int:id>", methods = ["GET"])
+def get_position(id):
+    position = list(filter(lambda p: p["id"] == id, data["positions"]))
+    return jsonify(position[0])
